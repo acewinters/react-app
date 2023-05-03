@@ -1,0 +1,17 @@
+.custom-nav-link {
+  color: #f5f2f2 !important;
+}
+
+.custom-nav-link:hover {
+  color: #bf1818 !important;
+}
+
+.custom-navbar-brand .white-text {
+  color: white;
+}
+
+.cart-count {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}

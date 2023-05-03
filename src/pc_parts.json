@@ -1,0 +1,403 @@
+{
+    "pc_parts": [
+        {
+            "id": 1,
+            "name": "Intel Core i9-11900K",
+            "type": "CPU",
+            "brand": "Intel",
+            "price": 599.99,
+            "specs": {
+                "Architecture": "Rocket Lake",
+                "Core Count": 8,
+                "Thread Count": 16,
+                "Base Clock": "3.5 GHz",
+                "Boost Clock": "5.3 GHz",
+                "Socket": "LGA1200",
+                "TDP": "125W"
+            },
+            "images": "images/IntelCorei9-11900K.jpg"
+        },
+        {
+            "id": 2,
+            "name": "NVIDIA GeForce RTX 3090",
+            "type": "GPU",
+            "brand": "NVIDIA",
+            "price": 1499.99,
+            "specs": {
+                "Architecture": "Ampere",
+                "CUDA Cores": 10496,
+                "Boost Clock": "1.70 GHz",
+                "Memory": "24 GB GDDR6X",
+                "Memory Speed": "19.5 Gbps",
+                "TDP": "350W"
+            },
+            "images": "images/NVIDIAGeForceRTX3090.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Corsair Vengeance RGB Pro 32GB",
+            "type": "RAM",
+            "brand": "Corsair",
+            "price": 179.99,
+            "specs": {
+                "Capacity": "32 GB",
+                "Type": "DDR4",
+                "Speed": "3600 MHz",
+                "CAS Latency": "18",
+                "Voltage": "1.35V",
+                "Configuration": "4 x 8GB"
+            },
+            "images": "images/CorsairVengeanceRGBPro32GB.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Samsung 970 EVO Plus 1TB",
+            "type": "SSD",
+            "brand": "Samsung",
+            "price": 199.99,
+            "specs": {
+                "Capacity": "1 TB",
+                "Type": "NVMe M.2",
+                "Read Speed": "3500 MB/s",
+                "Write Speed": "3300 MB/s",
+                "Interface": "PCIe 3.0 x4"
+            },
+            "images": "images/Samsung970EVOPlus1TB.jpg"
+        },
+        {
+            "id": 5,
+            "name": "ASUS ROG Strix Z590-E",
+            "type": "Motherboard",
+            "brand": "ASUS",
+            "price": 379.99,
+            "specs": {
+                "Socket": "LGA1200",
+                "Chipset": "Intel Z590",
+                "Form Factor": "ATX",
+                "Memory Slots": 4,
+                "Memory Type": "DDR4",
+                "Max Memory": "128 GB",
+                "PCIe Slots": 5,
+                "Storage Interface": "6 x SATA 6Gb/s, 3 x M.2"
+            },
+            "images": "images/ASUSROGStrixZ590-E.jpg"
+        },
+        {
+            "id": 6,
+            "name": "AMD Ryzen 9 5900X",
+            "type": "CPU",
+            "brand": "AMD",
+            "price": 549.99,
+            "specs": {
+              "Architecture": "Zen 3",
+              "Core Count": 12,
+              "Thread Count": 24,
+              "Base Clock": "3.7 GHz",
+              "Boost Clock": "4.8 GHz",
+              "Socket": "AM4",
+              "TDP": "105W"
+            },
+            "images": "images/AMDRyzen95900X.jpg"
+        },
+        {
+            "id": 7,
+            "name": "AMD Radeon RX 6800 XT",
+            "type": "GPU",
+            "brand": "AMD",
+            "price": 999.99,
+            "specs": {
+              "Architecture": "RDNA 2",
+              "Stream Processors": 4608,
+              "Boost Clock": "2.25 GHz",
+              "Memory": "16 GB GDDR6",
+              "Memory Speed": "16 Gbps",
+              "TDP": "300W"
+            },
+            "images": "images/AMDRadeonRX6800XT.jpg"
+        },
+        {
+            "id": 8,
+            "name": "G.Skill Trident Z Neo 32GB",
+            "type": "RAM",
+            "brand": "G.Skill",
+            "price": 169.99,
+            "specs": {
+              "Capacity": "32 GB",
+              "Type": "DDR4",
+              "Speed": "3600 MHz",
+              "CAS Latency": "16",
+              "Voltage": "1.35V",
+              "Configuration": "2 x 16GB"
+            },
+            "images": "images/G.SkillTridentZNeo32GB.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Crucial P5 1TB",
+            "type": "SSD",
+            "brand": "Crucial",
+            "price": 134.99,
+            "specs": {
+              "Capacity": "1 TB",
+              "Type": "NVMe M.2",
+              "Read Speed": "3400 MB/s",
+              "Write Speed": "3000 MB/s",
+              "Interface": "PCIe 3.0 x4"
+            },
+            "images": "images/CrucialP51TB.jpg"
+        },
+        {
+            "id": 10,
+            "name": "MSI MPG B550 GAMING EDGE WIFI",
+            "type": "Motherboard",
+            "brand": "MSI",
+            "price": 209.99,
+            "specs": {
+                "Socket": "AM4",
+                "Chipset": "AMD B550",
+                "Form Factor": "ATX",
+                "Memory Slots": 4,
+                "Memory Type": "DDR4",
+                "Max Memory": "128 GB",
+                "PCIe Slots": 5,
+                "Storage Interface": "6 x SATA 6Gb/s, 2 x M.2"
+            },
+            "images": "images/MSIMPGB550GAMINGEDGEWIFI.jpg"
+        },
+        {
+            "id": 11,
+            "name": "AMD Ryzen 7 5800X",
+            "type": "CPU",
+            "brand": "AMD",
+            "price": 399.99,
+            "images": "images/AMDRyzen75800X.jpg",
+            "specs": {
+                "Architecture": "Zen 3",
+                "Core Count": 8,
+                "Thread Count": 16,
+                "Base Clock": "3.8 GHz",
+                "Boost Clock": "4.7 GHz",
+                "Socket": "AM4",
+                "TDP": "105W"
+            }
+        },
+        {
+            "id": 12,
+            "name": "NVIDIA GeForce RTX 3070",
+            "type": "GPU",
+            "brand": "NVIDIA",
+            "price": 799.99,
+            "images": "images/NVIDIAGeForceRTX3070.jpg",
+            "specs": {
+                "Architecture": "Ampere",
+                "CUDA Cores": 5888,
+                "Boost Clock": "1.73 GHz",
+                "Memory": "8 GB GDDR6",
+                "Memory Speed": "14 Gbps",
+                "TDP": "220W"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Kingston HyperX Fury 16GB",
+            "type": "RAM",
+            "brand": "Kingston",
+            "price": 89.99,
+            "images": "images/KingstonHyperXFury16GB.jpg",
+            "specs": {
+                "Capacity": "16 GB",
+                "Type": "DDR4",
+                "Speed": "3200 MHz",
+                "CAS Latency": "16",
+                "Voltage": "1.35V",
+                "Configuration": "2 x 8GB"
+            }
+        },
+        {
+            "id": 14,
+            "name": "WD Blue SN550 1TB",
+            "type": "SSD",
+            "brand": "Western Digital",
+            "price": 109.99,
+            "images": "images/WDBlueSN5501TB.jpg",
+            "specs": {
+                "Capacity": "1 TB",
+                "Type": "NVMe M.2",
+                "Read Speed": "2400 MB/s",
+                "Write Speed": "1950 MB/s",
+                "Interface": "PCIe 3.0 x4"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Gigabyte B450 AORUS Elite V2",
+            "type": "Motherboard",
+            "brand": "Gigabyte",
+            "price": 104.99,
+            "specs": {
+                "Socket": "AM4",
+                "Chipset": "AMD B450",
+                "Form Factor": "ATX",
+                "Memory Slots": 4,
+                "Memory Type": "DDR4",
+                "Max Memory": "128 GB",
+                "PCIe Slots": 4,
+                "Storage Interface": "6 x SATA 6Gb/s, 2 x M.2"
+            },
+            "images": "images/GigabyteB450AORUSEliteV2.jpg"
+        }
+    ],
+
+    "monitors": [
+        {
+            "id": 1,
+            "name": "Acer Predator X27",
+            "brand": "Acer",
+            "price": 1299.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "4K UHD (3840 x 2160)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "144Hz",
+                "Response Time": "4ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/AcerPredatorX27.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Alienware 34 Curved Gaming Monitor",
+            "brand": "Alienware",
+            "price": 1099.99,
+            "specs": {
+                "Size": "34 inch",
+                "Resolution": "WQHD (3440 x 1440)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "120Hz",
+                "Response Time": "4ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/Alienware34CurvedGamingMonitor.jpg"
+        },
+        {
+            "id": 3,
+            "name": "ASUS ROG Swift PG279QZ",
+            "brand": "ASUS",
+            "price": 799.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "WQHD (2560 x 1440)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "165Hz",
+                "Response Time": "4ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/ASUSROGSwiftPG279QZ.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Asus TUF Gaming VG27AQ",
+            "brand": "Asus",
+            "price": 499.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "WQHD (2560 x 1440)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "165Hz",
+                "Response Time": "1ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/AsusTUFGamingVG27AQ.jpg"
+        },            
+        {
+            "id": 5,
+            "name": "BenQ EX2780Q",
+            "brand": "BenQ",
+            "price": 449.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "WQHD (2560 x 1440)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "144Hz",
+                "Response Time": "5ms",
+                "Inputs": "HDMI, DisplayPort, USB-C"
+            },
+            "images": "images/BenQEX2780Q.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Dell S2721DG",
+            "brand": "Dell",
+            "price": 529.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "WQHD (2560 x 1440)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "165Hz",
+                "Response Time": "1ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/DellS2721DG.jpg"
+        },
+        {
+            "id": 7,
+            "name": "LG 27GN950-B",
+            "brand": "LG",
+            "price": 999.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "4K UHD (3840 x 2160)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "144Hz",
+                "Response Time": "1ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/LG27GN950-B.jpg"
+        },
+        {
+            "id": 8,
+            "name": "LG 38GL950G-B",
+            "brand": "LG",
+            "price": 1799.99,
+            "specs": {
+                "Size": "38 inch",
+                "Resolution": "WQHD+ (3840 x 1600)",
+                "Panel Type": "Nano IPS",
+                "Refresh Rate": "175Hz",
+                "Response Time": "1ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/LG38GL950G-B.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Samsung Odyssey G7",
+            "brand": "Samsung",
+            "price": 849.99,
+            "specs": {
+                "Size": "32 inch",
+                "Resolution": "WQHD (2560 x 1440)",
+                "Panel Type": "VA",
+                "Refresh Rate": "240Hz",
+                "Response Time": "1ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/SamsungOdysseyG7.jpg"
+        },
+        {
+            "id": 10,
+            "name": "ViewSonic Elite XG270QG",
+            "brand": "ViewSonic",
+            "price": 699.99,
+            "specs": {
+                "Size": "27 inch",
+                "Resolution": "WQHD (2560 x 1440)",
+                "Panel Type": "IPS",
+                "Refresh Rate": "165Hz",
+                "Response Time": "1ms",
+                "Inputs": "HDMI, DisplayPort"
+            },
+            "images": "images/ViewSonicEliteXG270QG.jpg"
+        } 
+    ]
+}        
